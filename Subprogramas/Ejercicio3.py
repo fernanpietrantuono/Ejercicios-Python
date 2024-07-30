@@ -1,13 +1,13 @@
 def cambio_moneda(eur, mon):
     if mon == "dolares":
         dolares = eur * 1.28611
-        print(eur, "€ son $", dolares)
+        print(f"{eur}€ son ${dolares}")
     elif mon == "yenes":
         yenes = eur * 129.852
-        print(eur, "€ son ¥", yenes)
+        print(f"{eur}€ son ¥{yenes}")
     elif mon == "libras":
         libras = eur * 0.86
-        print(eur, "€ son £", libras)
+        print(f"{eur}€ son £{libras}")
     else:
         print("Lo siento, no se encuentra dentro de estas opciones")
 

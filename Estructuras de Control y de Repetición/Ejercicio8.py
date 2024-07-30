@@ -5,7 +5,7 @@ for i in range(num):
             print(" * ")
         elif i == 0 or i == num - 1:
             print(" * ", end="")
-        elif j > 0 and j < num - 1:
+        elif 0 < j < num - 1:
             print("   ", end="")
         elif j == 0:
             print(" * ", end="")

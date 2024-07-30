@@ -9,4 +9,4 @@ def num_primo(n):
 
 num = int(input("Ingresá un número: "))
 respuesta = num_primo(num)
-print("¿El", num, "es un número primo?", respuesta)
+print(f"¿El {num} es un número primo?", respuesta)

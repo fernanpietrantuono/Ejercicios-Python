@@ -11,5 +11,5 @@ def division(num1, num2):
 
 
 n1 = int(input("Ingresá un primer número: "))
-n2 = int(input("Ingresá un primer número: "))
+n2 = int(input("Ingresá un segundo número: "))
 division(n1, n2)
